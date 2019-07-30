@@ -1,0 +1,273 @@
+/* background color*/
+#bground-color{
+    background-color:#1d082f;
+    height:auto;
+    width:100vw;
+}
+/* Nav Bar Styling*/
+nav {
+    width:100vw;
+    height:200px;
+  }
+  
+  .logo {
+      margin-top:25px;
+    border-radius:45%;
+    height:100px;
+    width:100px;
+      }
+  
+  .brand-name {
+
+    margin-left: 100px;
+    margin-top: 25px;
+    color: white;
+    font-size:60px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+    margin-left: 50px;
+  }
+  
+  .nav-link {
+    margin-left:200px;
+    text-decoration: none;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .search-box{
+      margin-top:50px;
+  margin-left:40vw;
+    background-color: bisque;
+    border-radius:10px;
+    text-align:center;
+    height:50px;
+    width:200px;
+    font-size:30px;
+  }
+    .bell-icon{
+        margin-left:100px;
+        height:100px;
+        width:100px;
+        border-radius:40%;
+        margin-top:25px;
+    }
+    .profile-picture{
+        margin-left:100px;
+        height:100px;
+        width:100px;
+        border-radius:40%;
+        margin-top:25px;
+    }
+
+        
+    
+/*styling for images of audio*/
+
+.photos{
+    margin-top:300px;
+    height:2000px;
+    width:60%;
+    margin-left:500px;
+    display:inline-block;
+
+}
+.photos img{
+    height:600px;
+    width:1000px;
+    display:inline-block;
+}
+.photos .imgg1{
+    
+    margin-bottom: -100px;
+    height:800px;
+    width:1200px;
+    position:relative;
+    margin-right:-300px;
+    margin-left:-300px;
+}
+/*images after the player which represent Latest Release/*/
+.after-song-photos{
+    margin-top:-1000px;
+    height:700px;
+    width:60%;
+    margin-left:500px;
+    display:inline-block;
+
+}
+.after-song-photos p{
+    color:white;
+    font-size:60px;
+    margin-top:-100px;
+}
+.after-song-photos h1{
+    color:white;
+    display:inline-block;
+    margin:100px;
+
+}
+/*images for popular artist*/
+.popular-artist{
+    height:700;
+        width:60%;
+    margin-left:500px;
+    display:inline-block;
+
+}
+
+.popular-artist p{
+    color:white;
+    font-size:60px;
+}
+.popular-artist img{
+    height:300px;
+    width:300px;
+    border-radius:50%;
+    display:inline-block;
+    padding:50px;
+}
+/* images of new color div*/
+.new-color-div{
+    margin-top:200px;
+    height:700px;
+    width:60%;
+    background-color:#215567;
+    margin-left:500px;
+    display:inline-block;
+
+}
+.new-color-div img{
+    border-radius:50%;
+    height:400px;
+    width:400px;
+    display:inline-block;
+    padding:50px;
+    margin-top:100px;
+}
+
+
+/* aside section implementauion*/
+
+
+aside {
+    margin-top:500px;
+  float: right;
+    margin-left:-300px;
+  width:25%;
+  color: white;
+  padding: 5px;
+  margin: 10px;
+  height: 600px;
+}
+
+.sidebar-img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.heart-icon {
+  font-size: 30px !important;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+/*
+aside {
+    width:25%;
+    font-style:italic;
+    display:inline-block;
+  vertical-align: top;
+    height:2000px;
+    background-color:blue;
+}
+/*different types of categories*/
+.category{
+    margin-top:200px;
+    margin-left:500px;
+    width:60%;
+    height:700px;
+}
+.category img{
+    padding:100px;
+    height:700px;
+    width:800px;
+}
+/*Latest English*/
+#eng{
+    margin-top:150px;
+    margin-left:500px;
+    color:white;
+    font-size:100px;
+}
+.latest-english{
+    margin-left:500px;
+    margin-top:200px;
+    height:700px;
+    width:60%;
+}
+.latest-english img{
+    height:400px;
+    width:400px;
+    padding:50px;
+}
+/*latest Hindi*/
+#hin{
+    margin-left:500px;
+    color:white;
+    font-size:100px;
+}
+
+.latest-hindi{
+    margin-left:500px;
+    width:60%;
+    margin-top:200px;
+    height:700px;
+}
+.latest-hindi img{
+    height:400px;
+    width:400px;
+    padding:50px;
+
+    
+}
+
+
+
+
+
+
+/*
+
+
+
+*/
+
+.audio-player{
+    
+    margin-top:200px;
+    background-color:rgb(44, 11, 82);
+    width:100%;
+}
+
+.audio-player img{
+    border-radius:50%;
+    height:200px;
+    width:200px;
+}
